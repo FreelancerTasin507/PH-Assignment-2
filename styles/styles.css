@@ -189,3 +189,89 @@ section-2 style
 /*------------------
    section-3 styles
 ------------------  */
+.some-facts{
+    padding: 155px 200px;
+}
+.section-3-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.section-3-prgh{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.section-3-awards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.section-3-award{
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 35px;
+}
+.section-3-award img{
+    width: 45.22px;
+    height: 45.22px;
+}
+.award-title{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.award-prgh{
+    font-weight: 600;
+    font-size: 20px;
+    color: #424242;
+}
+/*--------------
+ sponsore styles
+---------------- */
+.section-4{
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 200px;
+}
+.sponsor-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.sponsor-prgh{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+.sponsor-imgs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+/* ---------------
+Footer styles
+---------------- */
+.footer{
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 50%;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 216px;
+}
+.footer-prgh{
+    text-align: center;
+    padding-top: 40px;
+}
+/*-------------
+ media quarys
+------------- */
+@media only screen and (max-width:576px){
+    
+}
